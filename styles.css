@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,600;1,500&display=swap');
+
+/* Reset Styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	border: 1px solid black;
+	width: 85%;
+}
+
+.testimonial-item {
+	border: 1px solid purple;
+	margin-bottom: 30px;
+	border-radius: 15px;
+}
+
+.testimonial-item > * {
+	margin: 30px;
+}
