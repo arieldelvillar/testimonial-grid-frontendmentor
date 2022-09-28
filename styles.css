@@ -31,3 +31,7 @@ main {
 .testimonial-item > * {
 	margin: 30px;
 }
+
+.person {
+	display: flex;
+}
